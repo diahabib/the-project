@@ -3,7 +3,7 @@ const app = express();
 const { Sequelize } = require('sequelize');
 
 // Configurez la connexion à la base de données PostgreSQL
-const sequelize = new Sequelize('TEST', 'postgres', 'mugiwara', {
+const sequelize = new Sequelize('transport', 'transport', 'mugiwaradluffy', {
   dialect: 'postgres', // Utilisation du dialecte PostgreSQL
   host: 'localhost', // Remplacez par l'adresse de votre serveur PostgreSQL
   port: 5432, // Port PostgreSQL par défaut
